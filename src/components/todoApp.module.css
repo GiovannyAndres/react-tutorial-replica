@@ -1,0 +1,71 @@
+.titulo {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.noteList {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.noteItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1.3em;
+  flex-wrap: wrap;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  svg {
+    cursor: pointer;
+  }
+}
+
+.editForm {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.editInput {
+  width: 97%;
+  padding: 8px;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.saveButton,
+.cancelButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(136, 255, 0);
+}
+
+.saveButton {
+  background-color: greenyellow;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+}
+
+.iconButton {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+}

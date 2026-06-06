@@ -1,0 +1,20 @@
+{
+  "notas": [
+    {
+      "id": "1",
+      "text": "Comprar",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "text": "Llamar",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "text": "Ejercicio",
+      "completed": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
