@@ -1,16 +1,11 @@
-# React + Vite
+## Créditos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue replicado siguiendo el tutorial de [rocoDev](https://www.youtube.com/watch?v=2xhAcqhSuVU&t=7440s).  
+El código original y las ideas pertenecen al autor del video.  
+Este repositorio tiene fines educativos y de práctica personal.
 
-Currently, two official plugins are available:
+## Adicionales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Al lado del título notas se añadió el número de notas que se encuentran siendo esta cifra también dinámica.
+2. Se retiró el título "Desmarcar" & "Completar" en su lugar se añadieron iconos svg de Lucide. Agregando el atributo title al botón para que al pasar el cursor encima mencione si "Desmarcar" o "Completar".
+3. Se añadieron funcionalidades Drag and Drop en cada nota, con el fin de organizar cada nota al gusto del usuario, con los controladores onDragStart, onDragOver & onDrop.
